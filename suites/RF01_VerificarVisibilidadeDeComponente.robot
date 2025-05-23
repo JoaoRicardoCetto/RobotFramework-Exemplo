@@ -4,12 +4,13 @@ Test Setup    Dado que eu acesse o Conecta
 Test Teardown    Fechar navegador
 
 *** Test Cases ***
-# RF01.01 O sistema deve exibir aos coordenadores os projetos com os quais têm vínculo.
+# RF01.01 
 Apenas acessar o Home 
+    [Tags]    RF01_01
     Acessar Home
 
 #RF01.02
 Acessar o Home e verificar se um componente X está visível
-    [Tags]    RF01_01
+    [Tags]    RF01_02
     Acessar Home
     Verificar Visibilidade de um componente

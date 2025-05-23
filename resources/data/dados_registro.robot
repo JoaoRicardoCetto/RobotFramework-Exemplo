@@ -4,3 +4,6 @@
 Resource    ../main.robot
 
 *** Variables ***
+&{dados_registro}
+...    NOME=FakerLibrary.First Name
+...    INDICE_COMBOBOX=5
